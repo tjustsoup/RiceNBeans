@@ -1,0 +1,112 @@
+body {
+    background-image: radial-gradient(#ff6a00, #a87856);
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  #clockSpot {
+    float: left;
+    text-align: center;
+    width: 30%;
+    margin-right: 5px;
+  }
+  
+  #clock {
+    margin-bottom: 1%;
+    font-size: 20px;
+  }
+  
+  /* Closed, Lunch, or Dinner time */
+  #servingTime {
+    background-color: rgb(80, 80, 80);
+    border: solid black;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 12px;
+    padding-top: 5px;
+    text-align: auto;
+  }
+  
+  .closed0 {
+    color: rgb(150, 150, 150);
+    font-size: 90%;
+  }
+  
+  .closed1 {
+    color: rgb(240, 240, 240);
+    font-size: 110%;
+    text-shadow: 0px 0px 5px black;
+  }
+  
+  .lunch0 {
+    color: rgb(150, 150, 150);
+    font-size: 90%;
+  }
+  
+  .lunch1 {
+    color: #FFCE18;
+    font-size: 110%;
+    text-shadow: 0px 0px 7px #FF8E08;
+  }
+  
+  .dinner0 {
+    color: rgb(150, 150, 150);
+    font-size: 90%;
+  }
+  
+  .dinner1 {
+    color: #FF6800;
+    font-size: 110%;
+    text-shadow: 0px 0px 7px #FF0000;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    background-color: grey;
+    border-style: solid;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 8%;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    width: 40%;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  li {
+    float: left;
+    font-size: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+  
+  #mapLocation {
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .navbar {
+    text-decoration: none;
+  }
+  

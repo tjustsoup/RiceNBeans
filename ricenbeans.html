@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Rice N Beans Home Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="ricenbeans.css" rel="stylesheet">
+  </head>
+
+  <body>
+  <div data-role="page" id="home">
+    <header>
+      <div id="clockSpot">
+        <p id="clock"></p>
+        <p id="servingTime">
+          <span id="closed" class="closed0">Closed</span>
+          <span id="lunch" class="lunch0">Lunch</span>
+          <span id="dinner" class="dinner0">Dinner</span>
+        </p>
+      </div>
+      <h1>RICE N BEANS</h1>
+    </header>
+    <hr>
+    <ul>
+      <li class="navbar"><a href="#home">🏠 Home</a></li>
+      <li class="navbar"><a href="#locations">🧭 Locations</a></li>
+      <li class="navbar"><a href="#menu">🍚 Menu</a></li>
+      <li class="navbar"><a href="#order">🚗 Order</a></li>
+    </ul>
+    <div>
+      <h2>Food Truck Location</h2>
+      <div id="mapLocation"></div>
+    </div>
+  </div>
+  </body>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly" async></script>
+  <script src="ricenbeans.js"></script>
+</html>
